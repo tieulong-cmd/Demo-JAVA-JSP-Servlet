@@ -35,13 +35,4 @@ public class MayTinh {
     @Column(name = "mieu_ta")
     private String mieuTa;
 
-    public MayTinh (String ten, Float gia, String boNho, String mauSac, String hang, String mieuTa){
-        this.ten = ten;
-        this.gia = gia;
-        this.boNho = boNho;
-        this.mauSac = mauSac;
-        this.hang = hang;
-        this.mieuTa = mieuTa;
-    }
-
 }
